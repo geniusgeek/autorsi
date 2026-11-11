@@ -1,5 +1,10 @@
 # AutoRSI
 
+![GitHub stars](https://img.shields.io/github/stars/geniusgeek/autorsi?style=social)
+![GitHub forks](https://img.shields.io/github/forks/geniusgeek/autorsi?style=social)
+![Last commit](https://img.shields.io/github/last-commit/geniusgeek/autorsi)
+[![PyPI](https://img.shields.io/pypi/v/autorsi)](https://pypi.org/project/autorsi/)
+
 **Bounded, evaluation-gated weight editing for Python applications.** Give AutoRSI a model you control, a measurable objective, protected metrics and a proposer. It builds isolated weight candidates, evaluates them, and promotes accepted weights at an inference safe point. Keep it as a one-shot developer tool or explicitly call it between agent tasks.
 
 AutoRSI is a Python framework for controlled, iterative model improvement. **Version 0.1.0a1 is an MIT-licensed alpha, [available on PyPI](https://pypi.org/project/autorsi/0.1.0a1/):** APIs may change. The source repository and linked source files require repository access while the repository is private.
@@ -163,3 +168,7 @@ python -m unittest discover -s tests/autorsi -v
 ```
 
 Torch and Hugging Face integration tests skip when their optional dependencies are absent. With them installed, the suite verifies actual edits/reloads, rejection, protected gates, cumulative bounds, safe-point promotion, stale revisions, deadline handling, rollback and injected storage failures. No test calls a provider or downloads model weights.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=geniusgeek/autorsi&type=Date)](https://star-history.com/#geniusgeek/autorsi&Date)
